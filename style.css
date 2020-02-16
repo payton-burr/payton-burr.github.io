@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin          : 0;
+  padding         : 0;
+  font-family     : 'Source Sans Pro', sans-serif;
+  background-color: #d5dae5;
+}
+
+.stop-scrolling {
+  height  : 100%;
+  overflow: hidden;
+}
+
+.header {
+  position        : fixed;
+  width           : 100%;
+  z-index         : 3;
+  height          : 45px;
+  background-color: #fff;
+  transition      : top 0.3s;
+}
+
+.logo {
+  vertical-align: middle;
+  height        : 45px;
+  padding       : 10px;
+  font-weight   : 700;
+}
+
+.header .logo {
+  color  : #233245;
+  float  : left;
+  z-index: 1;
+}
+
+.side-nav .logo {
+  background-color: #3e454c;
+  color           : #fff;
+}
+
+.logo i {
+  /* font-size: 22px; */
+}
+
+.logo span {
+  margin-left   : 5px;
+  text-transform: uppercase;
+}
+
+.nav-trigger {
+  position: relative;
+  float   : right;
+  width   : 20px;
+  height  : 44px;
+  right   : 30px;
+  display : block;
+}
+
+.nav-trigger span,
+.nav-trigger span:before,
+span:after {
+  width           : 20px;
+  height          : 2px;
+  background-color: #35475e;
+  position        : absolute;
+}
+
+.nav-trigger span {
+  top: 50%
+}
+
+.nav-trigger.trigger-fade span {
+  background-color: transparent;
+}
+
+.nav-trigger span:before,
+.nav-trigger span:after {
+  content   : '';
+  transition: all .2s;
+}
+
+.nav-trigger:hover span::before {
+  top: -.5rem;
+}
+
+.nav-trigger:hover span::after {
+  top: .5rem;
+}
+
+
+.nav-trigger.rotate span::before {
+  top      : 0;
+  transform: rotate(135deg);
+}
+
+.nav-trigger.rotate span::after {
+  top      : 0;
+  transform: rotate(-135deg);
+}
+
+.nav-trigger span:before {
+  top: -6px;
+}
+
+.nav-trigger span:after {
+  top: 6px;
+}
+
+.side-nav {
+  position        : fixed;
+  width           : 100%;
+  height          : 100%;
+  background-color: #2b3035;
+  z-index         : 1;
+  display         : none;
+}
+
+.side-nav.visible {
+  display: block;
+}
+
+.side-nav ul {
+  margin    : 0;
+  padding   : 0;
+  list-style: none;
+}
+
+.side-nav ul li {
+  padding      : 16px 16px;
+  border-bottom: 1px solid #333333;
+  position     : relative;
+  cursor       : pointer;
+}
+
+.side-nav ul li.active:before {
+  content         : '';
+  position        : absolute;
+  width           : 4px;
+  height          : 100%;
+  top             : 0;
+  left            : 0;
+  background-color: #fff;
+}
+
+.side-nav ul li:hover {
+  background-color: #1f2325;
+}
+
+.side-nav ul li a {
+  color          : #fff;
+  display        : block;
+  text-decoration: none;
+}
+
+.side-nav ul li i {
+  color     : #0497df;
+  min-width : 20px;
+  font-size : .65rem;
+  text-align: center;
+}
+
+.side-nav ul li span:nth-child(2) {
+  display    : inline-block;
+  margin-left: 10px;
+  font-size  : 14px;
+}
+
+@media screen and (min-width: 64rem) {
+  .header {
+    background-color: #3e454c;
+    z-index         : 1;
+  }
+
+  .header .logo {
+    display: none;
+  }
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .side-nav {
+    display: block;
+    z-index: 2;
+    width  : 200px;
+  }
+
+  .side-nav .logo i {
+    padding-left: 12px;
+  }
+}
