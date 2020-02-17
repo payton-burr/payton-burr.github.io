@@ -166,6 +166,21 @@ span:after {
   font-size  : 14px;
 }
 
+/* Temporary */
+
+.main-content {
+  color      : #333333;
+  padding    : 40px;
+  margin     : 0 15%;
+  width      : 50%;
+  padding    : 0;
+  padding-top: 44px
+}
+
+
+
+
+/* -------------------- */
 @media screen and (min-width: 64rem) {
   .header {
     background-color: #3e454c;
