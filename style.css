@@ -19,30 +19,28 @@ body {
   width           : 100%;
   z-index         : 3;
   height          : 45px;
-  background-color: #fff;
+  background-color: #3e454c;
   transition      : top 0.3s;
 }
 
 .logo {
-  vertical-align: middle;
-  height        : 45px;
-  padding       : 10px;
-  font-weight   : 700;
+  height      : 45px;
+  padding-left: 20px;
+  font-size   : 22px;
 }
 
 .header .logo {
-  color  : #233245;
-  float  : left;
-  z-index: 1;
+  color     : #233245;
+  float     : left;
+  z-index   : 1;
+  height    : 26px;
+  margin-top: 10px;
 }
 
 .side-nav .logo {
+  display         : inline-block;
+  width           : 100%;
   background-color: #3e454c;
-  color           : #fff;
-}
-
-.logo i {
-  /* font-size: 22px; */
 }
 
 .logo span {
@@ -64,7 +62,7 @@ body {
 span:after {
   width           : 20px;
   height          : 2px;
-  background-color: #35475e;
+  background-color: #fff;
   position        : absolute;
 }
 
