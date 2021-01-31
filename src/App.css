@@ -1,10 +1,25 @@
 body {
   background: #272a2f;
-  height: 60vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Rubik', sans-serif;
+  color: #ffffff;
+  border: 1rem solid #1c1e21;
+}
+
+.App {
+  margin-bottom: 10rem;
 }
 
 h1 {
+  font-size: 4.5rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0;
+  color: #707276;
 }
