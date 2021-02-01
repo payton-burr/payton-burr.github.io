@@ -24,6 +24,12 @@ h3 {
   color: #707276;
 } */
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 main {
   margin-left: 5rem;
+  padding: 1rem;
 }
