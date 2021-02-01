@@ -1,0 +1,7 @@
+.navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background: #1c1e21;
+}
