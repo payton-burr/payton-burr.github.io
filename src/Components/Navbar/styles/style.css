@@ -1,0 +1,27 @@
+.navbar {
+  height: 60px;
+  padding: 0 10%;
+  background: #212327;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logo {
+  font-weight: normal;
+  font-size: 2.7rem;
+}
+
+.navbar-item {
+  margin-right: 3em;
+}
+
+.navbar-item:last-of-type {
+  margin-right: 0;
+}
