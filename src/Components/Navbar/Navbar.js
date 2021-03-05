@@ -8,10 +8,14 @@ export default function Navbar() {
       <h2 className="logo">Payton</h2>
       <ul className="navbar-nav">
         <li className="navbar-item">
-          <a className="navbar-link">Projects</a>
+          <a href="#" alt="Projects" className="navbar-link">
+            Projects
+          </a>
         </li>
         <li className="navbar-item">
-          <a className="navbar-link">Contact</a>
+          <a href="#" alt="Contact" className="navbar-link">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>

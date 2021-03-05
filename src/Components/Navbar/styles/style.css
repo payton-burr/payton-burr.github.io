@@ -7,19 +7,29 @@
   justify-content: space-between;
 }
 
+.logo {
+  font-weight: normal;
+  font-size: 2.7rem;
+}
+
 .navbar-nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.logo {
-  font-weight: normal;
-  font-size: 2.7rem;
-}
-
 .navbar-item {
   margin-right: 3em;
+}
+
+.navbar-link {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.navbar-link:hover,
+.navbar-link:focus {
+  color: #8f9093;
 }
 
 .navbar-item:last-of-type {
