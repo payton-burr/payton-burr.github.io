@@ -18,7 +18,7 @@ function Landing() {
       </p>
 
       <button type="button" className="landing-btn">
-        <a>Projects</a>
+        Projects
       </button>
     </div>
   );
