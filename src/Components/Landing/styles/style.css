@@ -1,0 +1,23 @@
+.landing {
+  font-family: 'Rubik', sans-serif;
+  width: 75%;
+  margin: 3rem auto;
+}
+
+.landing-intro {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.landing-title {
+  font-size: 8rem;
+  font-weight: normal;
+}
+
+.landing-desc {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.landing-btn {
+}
