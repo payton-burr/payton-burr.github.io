@@ -5,10 +5,10 @@ import './styles/style.css';
 function Landing() {
   return (
     <div className="landing">
-      <p className="landing-intro">Hey there, I'm</p>
+      <p className="landing-intro">Hey there 👋, I'm</p>
       <h1 className="landing-title">
         Payton Burr <br />
-        I'm a developer
+        I am a developer
       </h1>
 
       <p className="landing-desc">
