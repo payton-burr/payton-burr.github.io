@@ -7,13 +7,13 @@ import projectsData from '../../fixtures/projects.json';
 function Project({ title, description, image }) {
   return (
     <section className="project">
-      <div>
+      <div className="left">
         <h3 className="project_title">{title}</h3>
         <div className="project_desc-container">
           <p className="project_desc">{description}</p>
         </div>
       </div>
-      <div>
+      <div className="right">
         <img className="project_img" src={image} alt="Netflix Clone" />
       </div>
     </section>
