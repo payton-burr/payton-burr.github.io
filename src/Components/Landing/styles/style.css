@@ -1,9 +1,7 @@
 .landing {
   font-family: 'Rubik', sans-serif;
+  margin-bottom: 50vh;
 }
-
-/* .landing-container {
-} */
 
 .landing-intro {
   font-size: 2rem;

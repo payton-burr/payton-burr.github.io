@@ -5,22 +5,20 @@ import './styles/style.css';
 function Landing() {
   return (
     <section className="landing">
-      <div className="landing-container">
-        <p className="landing-intro">Hey there 👋, I'm</p>
-        <h1 className="landing-title">
-          Payton Burr <br />I am a developer
-        </h1>
+      <p className="landing-intro">Hey there 👋, I'm</p>
+      <h1 className="landing-title">
+        Payton Burr <br />I am a developer
+      </h1>
 
-        <p className="landing-desc">
-          I am a Front End Developer with a passion for creating cool webistes
-          and learning new things. Currently I am expanding my skills by
-          learning Node &amp; Express
-        </p>
+      <p className="landing-desc">
+        I am a Front End Developer with a passion for creating cool webistes and
+        learning new things. Currently I am expanding my skills by learning Node
+        &amp; Express
+      </p>
 
-        <button type="button" className="landing-btn">
-          Projects
-        </button>
-      </div>
+      <button type="button" className="landing-btn">
+        Projects
+      </button>
     </section>
   );
 }

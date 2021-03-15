@@ -1,7 +1,7 @@
 .project {
   display: flex;
   flex-shrink: 0;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .left {
@@ -32,5 +32,5 @@
 }
 
 .project_img {
-  width: 100%;
+  width: 60%;
 }
