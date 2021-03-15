@@ -1,9 +1,10 @@
 .project {
-  width: 75%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   max-width: 1000px;
   margin-left: 13%;
+  margin-bottom: 10rem;
 }
 
 .project_title {
