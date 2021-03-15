@@ -7,8 +7,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Landing />
-      <ProjectsContainer />
+      <div className="container">
+        <Landing />
+        <ProjectsContainer />
+      </div>
     </>
   );
 }

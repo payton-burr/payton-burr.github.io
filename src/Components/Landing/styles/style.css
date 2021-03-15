@@ -1,9 +1,9 @@
 .landing {
   font-family: 'Rubik', sans-serif;
-  width: 75%;
-  margin: 3rem auto;
-  height: 50vh;
 }
+
+/* .landing-container {
+} */
 
 .landing-intro {
   font-size: 2rem;
