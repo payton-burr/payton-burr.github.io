@@ -1,6 +1,8 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable react/prop-types */
 import React from 'react';
 import './styles/style.css';
+import projectsData from '../../fixtures/projects.json';
 
 function Project({ title, description, image }) {
   return (
@@ -18,4 +20,20 @@ function Project({ title, description, image }) {
   );
 }
 
-export default Project;
+function ProjectsContainer() {
+  return (
+    <>
+      <h2 className="section-title">Projects</h2>
+      {projectsData.map((item) => (
+        <Project
+          key={item.id}
+          title={item.title}
+          description={item.description}
+          image={item.image}
+        />
+      ))}
+    </>
+  );
+}
+
+export default ProjectsContainer;

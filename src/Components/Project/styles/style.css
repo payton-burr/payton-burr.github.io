@@ -3,11 +3,12 @@
   display: flex;
   justify-content: space-between;
   max-width: 1000px;
-  margin-left: 12%;
+  margin-left: 13%;
 }
 
 .project_title {
-  font-size: 3.5rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .project_desc-container {
