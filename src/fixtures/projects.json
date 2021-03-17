@@ -11,7 +11,9 @@
       "Fuse.js",
       "Styled Components",
       "Compound Components"
-    ]
+    ],
+    "github": "https://github.com/payton-burr/netflix-clone",
+    "preview": "https://payton-burr-netflix-clone.vercel.app"
   },
   {
     "id": "2",
@@ -22,7 +24,9 @@
       "https://cdn.worldvectorlogo.com/logos/html5.svg",
       "https://cdn.worldvectorlogo.com/logos/css3.svg",
       "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
-    ]
+    ],
+    "github": "https://github.com/payton-burr/BeatMaker",
+    "preview": "https://payton-burr.github.io/BeatMaker"
   },
   {
     "id": "3",
@@ -33,6 +37,8 @@
       "https://cdn.worldvectorlogo.com/logos/html5.svg",
       "https://cdn.worldvectorlogo.com/logos/css3.svg",
       "https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
-    ]
+    ],
+    "github": "https://github.com/payton-burr/image-gallery",
+    "preview": "https://payton-burr.github.io/image-gallery"
   }
 ]
