@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Netflix Clone",
-    "description": "A multi-page rebuid of Netflix with authentication and protected routes. This was built using React, Firebase, Compound Components, Styled Components, and Fuse.js",
+    "description": "A multi-page rebuid of Netflix with authentication and protected routes.",
     "image": "https://images.unsplash.com/photo-1615393457304-e0f4d3f47cd8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1946&q=80",
     "tech": [
       "https://cdn.worldvectorlogo.com/logos/firebase-1.svg",
@@ -18,7 +18,7 @@
   {
     "id": "2",
     "title": "BeatMaker",
-    "description": "A simple application that allows users to create their own custom beats. This was built using Html, CSS, and Javascript Classes to utilized OOP",
+    "description": "A simple application that allows users to create their own custom beats. This project utilized OOP",
     "image": "https://images.unsplash.com/photo-1615393457304-e0f4d3f47cd8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1946&q=80",
     "tech": [
       "https://cdn.worldvectorlogo.com/logos/html5.svg",
@@ -31,7 +31,7 @@
   {
     "id": "3",
     "title": "Image Gallery",
-    "description": "A simple application that lets you view and download free stock images. Built using HTML, CSS, Javascript, and Pexels API",
+    "description": "A simple application that lets you view and download free stock images. Built using Pexels API",
     "image": "https://images.unsplash.com/photo-1615393457304-e0f4d3f47cd8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1946&q=80",
     "tech": [
       "https://cdn.worldvectorlogo.com/logos/html5.svg",
