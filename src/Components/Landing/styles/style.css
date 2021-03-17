@@ -24,15 +24,16 @@
 
 .landing-desc {
   font-size: 2rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   line-height: 1.6;
   max-width: 1000px;
-  color: #b4b6b9;
+  color: #c4c4c4;
 }
 
 .landing-btn {
   display: inline-block;
   position: relative;
+  top: 2rem;
   width: max-content;
   background: #ffffff;
   color: #272a2f;
@@ -90,4 +91,50 @@
 .landing-btn:focus {
   background: #212327;
   color: #ffffff;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: none;
+}
+
+.mouse {
+  width: 3rem;
+  height: 5rem;
+  padding: 0 1em;
+  border: 2px solid #ffffff;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+
+.mouse span {
+  width: 1rem;
+  height: 1rem;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  animation: move-wheel 2s linear infinite;
+}
+
+@keyframes move-wheel {
+  0% {
+    opacity: 1;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+}
+
+@media (min-width: 1000px) {
+  .scroll-down {
+    display: block;
+  }
 }

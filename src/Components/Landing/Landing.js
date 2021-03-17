@@ -16,6 +16,12 @@ function Landing() {
       </p>
 
       <a className="landing-btn">Projects</a>
+
+      <a className="scroll-down">
+        <div className="mouse">
+          <span />
+        </div>
+      </a>
     </section>
   );
 }
