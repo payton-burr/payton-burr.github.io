@@ -19,7 +19,7 @@
     "id": "2",
     "title": "BeatMaker",
     "description": "A simple application that allows users to create their own custom beats. This project utilized OOP",
-    "image": "./images/beatmaker.png",
+    "image": "./images/beatmaker.PNG",
     "tech": [
       "https://cdn.worldvectorlogo.com/logos/html5.svg",
       "https://cdn.worldvectorlogo.com/logos/css-5.svg",
@@ -32,7 +32,7 @@
     "id": "3",
     "title": "Image Gallery",
     "description": "A simple application that lets you view and download free stock images. Built using Pexels API",
-    "image": "./images/image-gallery.png",
+    "image": "./images/image-gallery.PNG",
     "tech": [
       "https://cdn.worldvectorlogo.com/logos/html5.svg",
       "https://cdn.worldvectorlogo.com/logos/css-5.svg",
