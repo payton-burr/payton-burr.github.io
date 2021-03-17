@@ -38,7 +38,6 @@ a {
 }
 
 .container {
-  width: 100%;
-  max-width: 1449px;
-  margin: 0 auto;
+  max-width: 125rem;
+  margin: auto;
 }
