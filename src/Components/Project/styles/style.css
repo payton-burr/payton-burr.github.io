@@ -31,6 +31,46 @@
   line-height: 1.6;
 }
 
+.techstack,
+.project_links {
+  display: flex;
+  align-items: center;
+}
+
+.techstack {
+  margin: 2rem 0;
+}
+
+.techstack_img,
+.techstack_tech {
+  margin-right: 1rem;
+}
+
+.techstack_img {
+  width: 3rem;
+}
+
+.techstack_tech {
+  font-size: 1.2rem;
+}
+
+.techstack_tech:last-child {
+  margin-right: 0;
+}
+
+.project-preview-link {
+  margin-left: 2rem;
+}
+
+i {
+  transform: scale(2);
+  color: #212327;
+}
+
+.project_link_img {
+  width: 3rem;
+}
+
 .project_img {
   width: 100%;
 }
