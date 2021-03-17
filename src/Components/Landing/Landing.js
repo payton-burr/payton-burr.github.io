@@ -15,9 +15,7 @@ function Landing() {
         &amp; Express
       </p>
 
-      <button type="button" className="landing-btn">
-        Projects
-      </button>
+      <a className="landing-btn">Projects</a>
     </section>
   );
 }
