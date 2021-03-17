@@ -5,11 +5,11 @@
 }
 
 .left {
-  width: 40%;
+  width: 50%;
 }
 
 .right {
-  width: 60%;
+  width: 50%;
 }
 
 .project_title {
@@ -21,16 +21,16 @@
   position: relative;
   left: 2.5rem;
   background-color: #c4c4c4;
-  padding: 2em;
+  padding: 2.5em;
 }
 
 .project_desc {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: #212327;
   max-width: 550px;
-  line-height: 1.3;
+  line-height: 1.6;
 }
 
 .project_img {
-  width: 60%;
+  width: 100%;
 }
