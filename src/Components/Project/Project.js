@@ -39,7 +39,7 @@ function Project({ title, description, image, tech, github, preview }) {
         </div>
       </div>
       <div className="right">
-        <img className="project_img" src={image} alt="Netflix Clone" />
+        <img className="project_img" src={image} alt={title} />
       </div>
     </div>
   );
