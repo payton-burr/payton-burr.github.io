@@ -74,3 +74,66 @@ i {
 .project_img {
   width: 100%;
 }
+
+@media (max-width: 900px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .left {
+    width: auto;
+  }
+
+  .right {
+    width: auto;
+  }
+
+  .project_desc-container {
+    position: static;
+    left: 0;
+  }
+
+  .techstack_img,
+  .techstack_tech {
+    margin-right: 3rem;
+  }
+
+  .techstack_img {
+    width: 4rem;
+  }
+
+  .techstack_tech {
+    font-size: 2rem;
+  }
+
+  i {
+    transform: scale(3);
+    color: #212327;
+  }
+
+  .project_link_img {
+    width: 3rem;
+  }
+}
+
+@media (max-width: 740px) {
+  .techstack {
+    display: none;
+  }
+
+  .project_links {
+    margin-top: 4rem;
+  }
+
+  .project-preview-link {
+    margin-left: 6rem;
+  }
+
+  i {
+    transform: scale(4);
+  }
+
+  .project_link_img {
+    width: 4rem;
+  }
+}
