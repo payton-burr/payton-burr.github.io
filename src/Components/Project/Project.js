@@ -6,7 +6,7 @@ import projectsData from '../../fixtures/projects.json';
 
 function Project({ title, description, image }) {
   return (
-    <section className="project">
+    <div className="project">
       <div className="left">
         <h3 className="project_title">{title}</h3>
         <div className="project_desc-container">
@@ -16,13 +16,13 @@ function Project({ title, description, image }) {
       <div className="right">
         <img className="project_img" src={image} alt="Netflix Clone" />
       </div>
-    </section>
+    </div>
   );
 }
 
 function ProjectsContainer() {
   return (
-    <>
+    <section id="projects">
       <h2 className="section-title">Projects</h2>
       {projectsData.map((item) => (
         <Project
@@ -32,7 +32,7 @@ function ProjectsContainer() {
           image={item.image}
         />
       ))}
-    </>
+    </section>
   );
 }
 

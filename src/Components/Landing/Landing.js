@@ -15,9 +15,11 @@ function Landing() {
         &amp; Express
       </p>
 
-      <a className="landing-btn">Projects</a>
+      <a href="#projects" className="landing-btn">
+        Projects
+      </a>
 
-      <a className="scroll-down">
+      <a href="#projects" className="scroll-down">
         <div className="mouse">
           <span />
         </div>
