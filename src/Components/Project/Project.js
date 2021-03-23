@@ -48,7 +48,9 @@ function Project({ title, description, image, tech, github, preview }) {
 function ProjectsContainer() {
   return (
     <section id="projects">
-      <h2 className="section-title">Projects</h2>
+      <h2 className="section-title" data-aos="fade-right">
+        Projects
+      </h2>
       {projectsData.map((item) => (
         <Project
           key={item.id}
