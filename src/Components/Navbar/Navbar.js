@@ -12,12 +12,12 @@ export default function Navbar() {
         </h2>
         <ul className="navbar-nav">
           <li className="navbar-item" data-aos="fade-down" data-aos-delay="200">
-            <a href="#" alt="Projects" className="navbar-link">
+            <a href="#projects" alt="Projects" className="navbar-link">
               Projects
             </a>
           </li>
           <li className="navbar-item" data-aos="fade-down" data-aos-delay="300">
-            <a href="#" alt="Contact" className="navbar-link">
+            <a alt="Contact" className="navbar-link">
               Contact
             </a>
           </li>
