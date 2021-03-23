@@ -6,7 +6,7 @@ import projectsData from '../../fixtures/projects.json';
 
 function Project({ title, description, image, tech, github, preview }) {
   return (
-    <div className="project">
+    <div className="project" data-aos="fade-up">
       <div className="left">
         <h3 className="project_title">{title}</h3>
         <div className="project_desc-container">
