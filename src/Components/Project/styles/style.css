@@ -1,10 +1,34 @@
+.projects__title {
+  width: min-content;
+  font-size: 2.5rem;
+  padding-right: 0.5em;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 1.875rem;
+}
+
 .card {
-  font-size: 16px;
+  font-size: 1rem;
   background: #383a45;
   padding: 1em;
   border-radius: 0.4em;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.card__photo {
+  border-radius: 0.2em;
+  margin-right: 1em;
+  width: 18rem;
 }
 
 p.card__title {
-  font-size: 1.6rem;
+  font-size: 1.2em;
+  line-height: 119.7%;
+  margin: 1.2rem 0;
+}
+
+p.card__desc {
+  color: #8d91a6;
+  font-size: 0.8em;
+  line-height: 152.7%;
 }

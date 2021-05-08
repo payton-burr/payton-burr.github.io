@@ -20,7 +20,7 @@ function Project({ title, image, desc }) {
 function ProjectsContainer() {
   return (
     <section id="projects">
-      <h2 className="section-title" data-aos="fade-right">
+      <h2 className="projects__title" data-aos="fade-right">
         Projects
       </h2>
       {projectsData.map((item) => (
@@ -28,7 +28,7 @@ function ProjectsContainer() {
           key={item.id}
           title={item.title}
           image={item.image}
-          description={item.description}
+          desc={item.description}
         />
       ))}
     </section>
