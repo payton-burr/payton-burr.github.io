@@ -1,12 +1,12 @@
 .navbar {
-  padding: 1.5em 0;
+  padding: 0.9375em 0;
   background: #212327;
-  margin-bottom: 6rem;
+  margin-bottom: 3.75rem;
 }
 
 .navbar-container {
   width: 80%;
-  max-width: 130rem;
+  max-width: 80.125rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -15,7 +15,7 @@
 
 .logo {
   font-weight: normal;
-  font-size: 2.7rem;
+  font-size: 1.6875rem;
 }
 
 .navbar-nav {
@@ -23,11 +23,11 @@
 }
 
 .navbar-item {
-  margin-right: 3em;
+  margin-right: 1.875em;
 }
 
 .navbar-link {
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: #ffffff;
 }
 

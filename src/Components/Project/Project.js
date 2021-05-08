@@ -4,42 +4,14 @@ import React from 'react';
 import './styles/style.css';
 import projectsData from '../../fixtures/projects.json';
 
-function Project({ title, description, image, tech, github, preview }) {
+function Project({ title, image, desc }) {
   return (
-    <div className="project" data-aos="fade-up">
-      <div className="left">
-        <h3 className="project_title">{title}</h3>
-        <div className="project_desc-container">
-          <p className="project_desc">{description}</p>
-
-          <div className="techstack">
-            {tech.map((item) =>
-              item.includes('svg') ? (
-                <img className="techstack_img" src={item} alt={title} />
-              ) : (
-                <p className="techstack_tech">{item}</p>
-              )
-            )}
-          </div>
-
-          <div className="project_links">
-            <a href={github}>
-              <img
-                className="project_link_img"
-                src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
-                alt="Github"
-              />
-            </a>
-            <a href={preview} className="project-preview-link">
-              <div style={{ fontSize: '1rem' }}>
-                <i className="fas fa-link" />
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="right">
-        <img className="project_img" src={image} alt={title} />
+    <div className="card" data-aos="fade-up">
+      <img src={image} alt={title} className="card__photo" />
+      <div className="card__content">
+        <p className="card__title">{title}</p>
+        <p className="card__desc">{desc}</p>
+        {/* svg's go here */}
       </div>
     </div>
   );
@@ -55,11 +27,8 @@ function ProjectsContainer() {
         <Project
           key={item.id}
           title={item.title}
-          description={item.description}
           image={item.image}
-          tech={item.tech}
-          github={item.github}
-          preview={item.preview}
+          description={item.description}
         />
       ))}
     </section>
