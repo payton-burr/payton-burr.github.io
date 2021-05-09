@@ -10,7 +10,7 @@
   font-size: 1rem;
   background: #383a45;
   padding: 1em;
-  border-radius: 0.4em;
+  border-radius: 0.4rem;
   display: flex;
   margin-bottom: 2rem;
 }
@@ -22,8 +22,8 @@
 }
 
 .card__photo {
-  border-radius: 0.2em;
-  margin-right: 1em;
+  border-radius: 0.2rem;
+  margin-right: 1rem;
   width: 18rem;
   object-fit: cover;
 }
@@ -37,7 +37,7 @@ p.card__desc {
   color: #8d91a6;
   font-size: 0.8rem;
   line-height: 152.7%;
-  max-width: 90%;
+  /* max-width: 90%; */
 }
 
 .card__links {
@@ -69,6 +69,7 @@ p.card__desc {
   .card__photo {
     margin: 0;
     width: 100%;
+    border-radius: 0.1rem;
   }
 
   p.card__title {
@@ -85,12 +86,13 @@ p.card__desc {
 @media only screen and (min-width: 950px) {
   .card {
     font-size: 2rem;
-    padding: 0.6em;
+    padding: 0.3em;
   }
 
   .card__photo {
     width: 100%;
     object-fit: cover;
+    margin-right: 0.8rem;
   }
 
   p.card__title {
