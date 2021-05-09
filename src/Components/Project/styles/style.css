@@ -25,16 +25,17 @@
   border-radius: 0.2em;
   margin-right: 1em;
   width: 18rem;
+  object-fit: cover;
 }
 
 p.card__title {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   line-height: 119.7%;
 }
 
 p.card__desc {
   color: #8d91a6;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   line-height: 152.7%;
   max-width: 90%;
 }
@@ -45,7 +46,7 @@ p.card__desc {
 
 .card__link {
   display: inline-block;
-  width: 1.3em;
+  width: 1.3rem;
   margin-right: 1.3em;
   cursor: pointer;
   transition: filter 0.1s;
@@ -76,7 +77,28 @@ p.card__desc {
 
   p.card__desc {
     margin: 0.8em 0;
-    font-size: 0.8em;
+    line-height: 172.7%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .card {
+    font-size: 2rem;
+    padding: 0.6em;
+  }
+
+  .card__photo {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  p.card__title {
+    font-size: 1.8rem;
+  }
+
+  p.card__desc {
+    margin: 0.8em 0;
     line-height: 172.7%;
     max-width: 100%;
   }
