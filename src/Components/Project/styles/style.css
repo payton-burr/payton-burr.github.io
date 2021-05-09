@@ -89,9 +89,12 @@ p.card__desc {
     padding: 0.3em;
   }
 
+  .card__content {
+    justify-content: center;
+  }
+
   .card__photo {
-    width: 100%;
-    object-fit: cover;
+    width: 70%;
     margin-right: 0.8rem;
   }
 
