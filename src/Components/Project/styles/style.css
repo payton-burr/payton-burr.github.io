@@ -15,6 +15,12 @@
   margin-bottom: 2rem;
 }
 
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .card__photo {
   border-radius: 0.2em;
   margin-right: 1em;
@@ -24,11 +30,54 @@
 p.card__title {
   font-size: 1.2em;
   line-height: 119.7%;
-  margin: 1.2rem 0;
 }
 
 p.card__desc {
   color: #8d91a6;
   font-size: 0.8em;
   line-height: 152.7%;
+  max-width: 90%;
+}
+
+.card__links {
+  display: flex;
+}
+
+.card__link {
+  display: inline-block;
+  width: 1.3em;
+  margin-right: 1.3em;
+  cursor: pointer;
+  transition: filter 0.1s;
+}
+
+.card__link:last-child {
+  margin-right: 0;
+}
+
+.card__link:hover {
+  filter: invert(90%);
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card__photo {
+    margin: 0;
+    width: 100%;
+  }
+
+  p.card__title {
+    margin-top: 0.8em;
+  }
+
+  p.card__desc {
+    margin: 0.8em 0;
+    font-size: 0.8em;
+    line-height: 172.7%;
+    max-width: 100%;
+  }
 }
