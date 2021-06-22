@@ -29,7 +29,7 @@
 }
 
 p.card__title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 119.7%;
 }
 
@@ -37,7 +37,6 @@ p.card__desc {
   color: #8d91a6;
   font-size: 0.8rem;
   line-height: 152.7%;
-  /* max-width: 90%; */
 }
 
 .card__links {
@@ -46,7 +45,7 @@ p.card__desc {
 
 .card__link {
   display: inline-block;
-  width: 1.3rem;
+  width: 1.4rem;
   margin-right: 1.3em;
   cursor: pointer;
   transition: filter 0.1s;
@@ -57,7 +56,7 @@ p.card__desc {
 }
 
 .card__link:hover {
-  filter: invert(90%);
+  filter: invert(50%);
 }
 
 @media only screen and (max-width: 800px) {
@@ -73,11 +72,11 @@ p.card__desc {
   }
 
   p.card__title {
-    margin-top: 0.8em;
+    margin: 0.4rem 0;
   }
 
   p.card__desc {
-    margin: 0.8em 0;
+    margin-bottom: 1.2rem;
     line-height: 172.7%;
     max-width: 100%;
   }
