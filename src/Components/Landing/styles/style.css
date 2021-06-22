@@ -138,3 +138,10 @@
     display: block;
   }
 }
+
+@media (max-width: 500px) {
+  .landing {
+    margin-top: 0;
+    min-height: calc(70vh);
+  }
+}
