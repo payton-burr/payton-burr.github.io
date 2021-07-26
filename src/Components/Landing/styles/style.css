@@ -141,3 +141,10 @@
     margin-top: 9.375rem;
   }
 }
+
+@media (max-width: 500px) {
+  .landing {
+    margin-top: 0;
+    min-height: calc(70vh);
+  }
+}
