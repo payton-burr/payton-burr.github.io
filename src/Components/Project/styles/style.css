@@ -37,11 +37,12 @@ p.card__desc {
   color: #8d91a6;
   font-size: 0.8rem;
   line-height: 152.7%;
-  /* max-width: 90%; */
+  /* width: 90%; */
 }
 
 .card__links {
   display: flex;
+  padding-top: 1em;
 }
 
 .card__link {

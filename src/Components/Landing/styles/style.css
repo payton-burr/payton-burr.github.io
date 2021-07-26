@@ -1,7 +1,6 @@
 .landing {
   font-family: 'Rubik', sans-serif;
   min-height: calc(100vh - 80px);
-  margin-top: 9.375rem;
   color: #9c9da0;
   line-height: 0.9;
 }
@@ -133,8 +132,12 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 950px) {
   .scroll-down {
     display: block;
+  }
+
+  .landing {
+    margin-top: 9.375rem;
   }
 }
