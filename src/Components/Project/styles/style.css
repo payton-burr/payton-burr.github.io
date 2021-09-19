@@ -87,6 +87,7 @@ p.card__desc {
   .card {
     font-size: 2rem;
     padding: 0.3em;
+    max-width: 60rem;
   }
 
   .card__content {
