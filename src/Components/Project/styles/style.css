@@ -37,10 +37,6 @@ p.card__desc {
   color: #8d91a6;
   font-size: 0.8rem;
   line-height: 152.7%;
-<<<<<<< HEAD
-  /* width: 90%; */
-=======
->>>>>>> 0f776bd14f58cf621b5b9610ebc3390899f2b8bd
 }
 
 .card__links {
@@ -95,10 +91,11 @@ p.card__desc {
 
   .card__content {
     justify-content: center;
+    width: 50%;
   }
 
   .card__photo {
-    width: 70%;
+    width: 50%;
     margin-right: 0.8rem;
   }
 
