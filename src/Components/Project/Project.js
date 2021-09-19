@@ -40,16 +40,18 @@ function ProjectsContainer() {
       <h2 className="projects__title" data-aos="fade-right">
         Projects
       </h2>
-      {projectsData.map((item) => (
-        <Project
-          key={item.id}
-          title={item.title}
-          image={item.image}
-          desc={item.description}
-          github={item.github}
-          preview={item.preview}
-        />
-      ))}
+      <div className="projects__container">
+        {projectsData.map((item) => (
+          <Project
+            key={item.id}
+            title={item.title}
+            image={item.image}
+            desc={item.description}
+            github={item.github}
+            preview={item.preview}
+          />
+        ))}
+      </div>
     </section>
   );
 }
