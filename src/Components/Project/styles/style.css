@@ -6,12 +6,19 @@
   margin-bottom: 1.875rem;
 }
 
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card {
   font-size: 1rem;
   background: #383a45;
   padding: 1em;
   border-radius: 0.4rem;
   display: flex;
+  max-width: 60rem;
   margin-bottom: 2rem;
 }
 
