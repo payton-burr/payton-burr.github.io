@@ -21,6 +21,15 @@ export default function Navbar() {
               Contact
             </a>
           </li>
+          <li className="navbar-item" data-aos="fade-down" data-aos-delay="400">
+            <a
+              href="https://payton-burr.github.io/resume/Payton_Burr_Resume.pdf"
+              alt="Resume"
+              className="navbar-link"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
