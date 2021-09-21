@@ -17,7 +17,7 @@ export default function Navbar() {
             </a>
           </li>
           <li className="navbar-item" data-aos="fade-down" data-aos-delay="300">
-            <a alt="Contact" className="navbar-link">
+            <a href="#footer" alt="Contact" className="navbar-link">
               Contact
             </a>
           </li>
