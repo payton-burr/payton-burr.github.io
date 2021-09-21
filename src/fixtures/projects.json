@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Portfolio",
-    "description": "My portfolio page from scratch. Built with React.",
+    "description": "This is my portfolio page built with React from scratch. It's updated consistently so all projects and contact information are up to date.",
     "image": "./images/portfolio.png",
     "github": "https://github.com/payton-burr/payton-burr.github.io",
     "preview": "https://payton-burr.github.io"
