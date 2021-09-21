@@ -1,5 +1,13 @@
 [
   {
+    "id": "4",
+    "title": "Portfolio",
+    "description": "My portfolio page from scratch. Built with React.",
+    "image": "./images/portfolio.png",
+    "github": "https://github.com/payton-burr/payton-burr.github.io",
+    "preview": "https://payton-burr.github.io"
+  },
+  {
     "id": "1",
     "title": "Netflix Clone",
     "description": "A multi-page rebuid of Netflix with authentication and protected routes. This project was built using React, React Router, Fuse.js, Styled Components, Compound Component pattern, and Firebase",
