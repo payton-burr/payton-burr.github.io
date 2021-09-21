@@ -3,7 +3,7 @@ import './styles/style.css';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
       <div className="container">
         <p className="footer__text">
           <span>Email:</span>
