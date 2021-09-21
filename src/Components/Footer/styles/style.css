@@ -1,0 +1,22 @@
+.footer {
+  background-color: #212327;
+  padding: 2.5rem 0;
+}
+
+.footer__text:last-child {
+  margin-top: 1.5em;
+}
+
+.footer__text span {
+  color: #c4c4c4;
+  font-weight: bold;
+}
+
+.footer__link {
+  color: inherit;
+  transition: color 0.1s;
+}
+
+.footer__link:hover {
+  color: #8d91a6;
+}
