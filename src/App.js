@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import Navbar from './Components/Navbar/Navbar';
 import Landing from './Components/Landing/Landing';
 import ProjectsContainer from './Components/Project/Project';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
         <Landing />
         <ProjectsContainer />
       </div>
+      <Footer />
     </>
   );
 }
